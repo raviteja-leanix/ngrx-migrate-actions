@@ -1,0 +1,65 @@
+{
+  "_from": "ngrx-migrate-actions",
+  "_id": "ngrx-migrate-actions@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-2yyo4GJ+HsQpGZhZ9jvZoJOEFOzHHrvf9titpeZ3vv3opwfDa+YzkrdDnR7eUeWhLhDLLTvCvSoT2K7/8a6vCA==",
+  "_location": "/ngrx-migrate-actions",
+  "_phantomChildren": {
+    "bl": "4.1.0",
+    "cli-cursor": "3.1.0",
+    "cli-spinners": "2.6.1",
+    "fast-deep-equal": "3.1.3",
+    "fast-json-stable-stringify": "2.1.0",
+    "is-interactive": "1.0.0",
+    "log-symbols": "4.1.0",
+    "magic-string": "0.25.7",
+    "source-map": "0.7.3",
+    "strip-ansi": "6.0.1",
+    "uri-js": "4.4.1",
+    "wcwidth": "1.0.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ngrx-migrate-actions",
+    "name": "ngrx-migrate-actions",
+    "escapedName": "ngrx-migrate-actions",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngrx-migrate-actions/-/ngrx-migrate-actions-1.0.5.tgz",
+  "_shasum": "61401d23c3be72a1f08ab876399964d63910e455",
+  "_spec": "ngrx-migrate-actions",
+  "_where": "/Users/ravitejachinthalapati/dev/leanix-pathfinder-web",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@angular-devkit/core": "^11.2.0",
+    "@angular-devkit/schematics": "^11.2.0",
+    "typescript": "~4.1.2"
+  },
+  "deprecated": false,
+  "description": "Schematic for migrating ngrx6 actions and reducers to ngrx11",
+  "devDependencies": {
+    "@angular-devkit/schematics-cli": "^12.0.5",
+    "@types/jasmine": "~3.5.0",
+    "@types/node": "^12.11.1",
+    "jasmine": "^3.5.0"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "license": "MIT",
+  "name": "ngrx-migrate-actions",
+  "schematics": "./src/collection.json",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "version": "1.0.5"
+}

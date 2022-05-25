@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "convertActions": {
+      "description": "schematic to update ngrx6 actions to ngrx11.",
+      "factory": "./ngrx-migrate-actions/index#migrateActions"
+    },
+    "convertReducers": {
+      "description": "schematic to update ngrx6 reducers to ngrx11.",
+      "factory": "./ngrx-migrate-actions/reducer#migrateReducers"
+    },
+    "migrate": {
+      "description": "schematic to update ngrx6 reducers to ngrx11.",
+      "factory": "./ngrx-migrate-actions/index#migrateNgrx"
+    }
+  }
+}

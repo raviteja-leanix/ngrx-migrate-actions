@@ -1,0 +1,17 @@
+{
+  "description": "Convert ngrx6 actions to ngrx11",
+  "properties": {
+    "filePath": {
+      "type": "string",
+      "description": "path of action files",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "path of action files"
+    }
+  },
+  "required": [
+    "filePath"
+  ]
+}
